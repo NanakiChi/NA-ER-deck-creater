@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ニベルアリーナ デッキビルダー（エターナルリターン）</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="app-header">
+  <h1>NivelArena デッキビルダー <span class="ip-tag">エターナルリターン</span></h1>
+  <div class="deck-stats" id="deckStats"></div>
+  <div class="header-actions">
+    <button id="btnClear" class="btn btn-ghost">デッキを空にする</button>
+    <button id="btnExport" class="btn btn-ghost">エクスポート</button>
+    <button id="btnImport" class="btn btn-ghost">インポート</button>
+  </div>
+</header>
+
+<main class="app-main">
+  <section class="browser-pane">
+    <div class="filters" id="filters">
+      <input type="text" id="searchInput" placeholder="カード名・効果テキストで検索" class="search-input">
+      <div class="filter-row" id="filterAttribute"></div>
+      <div class="filter-row" id="filterType"></div>
+      <div class="filter-row" id="filterRarity"></div>
+      <div class="filter-row" id="filterCost"></div>
+      <button id="btnResetFilters" class="btn btn-small btn-ghost">フィルターをリセット</button>
+    </div>
+    <div class="card-grid" id="cardGrid"></div>
+  </section>
+
+  <aside class="deck-pane">
+    <div class="leader-slot" id="leaderSlot">
+      <div class="leader-slot-placeholder">リーダー未選択<br><span>カード一覧のリーダーをクリックして選択</span></div>
+    </div>
+    <div class="deck-validity" id="deckValidity"></div>
+    <div class="deck-list" id="deckList"></div>
+  </aside>
+</main>
+
+<div class="modal-backdrop" id="cardModalBackdrop">
+  <div class="modal-card" id="cardModal"></div>
+</div>
+
+<div class="modal-backdrop" id="importModalBackdrop">
+  <div class="modal-card import-modal">
+    <h3>デッキをインポート</h3>
+    <p class="import-help">エクスポート形式のテキストを貼り付けてください。</p>
+    <textarea id="importText" rows="14"></textarea>
+    <div class="modal-actions">
+      <button id="btnImportCancel" class="btn btn-ghost">キャンセル</button>
+      <button id="btnImportConfirm" class="btn btn-primary">読み込む</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
