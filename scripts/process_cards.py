@@ -16,6 +16,13 @@ def fix_effect_html(html):
         return m.group(0).replace(m.group(1), f"images/icons/{name}")
     return re.sub(r'src="([^"]+)"', repl, html)
 
+def has_trigger_ability(html):
+    # "triger_box" (sic) marks an actual triggered ability. Cards that merely
+    # *reference* the trigger icon (e.g. "cards without [trigger]") contain the
+    # icon image but not this wrapper, so a plain "ico_trigger" substring check
+    # over-counts them.
+    return "triger_box" in html
+
 def to_int_or_none(v):
     v = (v or "").strip()
     if v in ("", "-"):
@@ -28,7 +35,6 @@ def to_int_or_none(v):
 cards = []
 for c in raw:
     effect_html = fix_effect_html(c.get("effectHtml", ""))
-    has_trigger = "ico_trigger" in c.get("effectHtml", "")
     cards.append({
         "id": c["wr_id"],
         "cardNo": c["cardNo"],
@@ -43,7 +49,8 @@ for c in raw:
         "keyword": c["keyword"],
         "effectHtml": effect_html,
         "productName": c["productName"],
-        "maxCopies": 8 if has_trigger else 3,
+        "maxCopies": 3,  # same identification number (cardNo): always max 3
+        "hasTrigger": has_trigger_ability(c.get("effectHtml", "")),  # deck-wide cap of 8, separate from maxCopies
         "image": f"images/cards/{c['wr_id']}.png",
     })
 
@@ -64,3 +71,7 @@ for c in cards:
     groups[c["cardNo"]].append(c)
 inconsistent = [k for k, v in groups.items() if len(set(x["maxCopies"] for x in v)) > 1]
 print("cardNo groups:", len(groups), "inconsistent maxCopies groups:", inconsistent)
+inconsistent_trigger = [k for k, v in groups.items() if len(set(x["hasTrigger"] for x in v)) > 1]
+print("inconsistent hasTrigger groups:", inconsistent_trigger)
+trigger_cards = sorted(set(c["cardNo"] for c in cards if c["hasTrigger"]))
+print("trigger cardNo count:", len(trigger_cards), trigger_cards)

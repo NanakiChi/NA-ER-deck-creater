@@ -13,7 +13,8 @@
     "keyword": "アクティブ",
     "effectHtml": "<b>基本面</b><br>\n<img style=\"width:33px;\" src=\"images/icons/ico_vow.jpg\" alt=\"서약\"> \n自分は&nbsp;<img style=\"width:20px;\" src=\"images/icons/ico_red_m.jpg\" alt=\"화염\"> のカードをデッキに入れ、<img style=\"width:20px;\" src=\"images/icons/ico_red_m.jpg\" alt=\"화염\">&nbsp;以外のカードは全て同じ属性でなければならない。\n<br>\n<img style=\"width:33px;\" src=\"images/icons/ico_awk.jpg\" alt=\"각성\"> \n自分のリーダーレベルが5以上の場合、このカードを裏返す。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_red_m.jpg\" alt=\"화염\"> 以外のカードがあるなら相手は1枚ドローできる。\n<br>\n<br>\n<b>覚醒面</b><br>\n<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 自分の手札を1枚選んでトラッシュする。その後、自分のトラッシュゾーンから <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないコスト2以下のスキルカードを1枚選んで手札に加える。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1137.png"
   },
   {
@@ -30,7 +31,8 @@
     "keyword": "アクティブ",
     "effectHtml": "<b>基本面</b><br>\n<img style=\"width:33px;\" src=\"images/icons/ico_vow.jpg\" alt=\"서약\"> \n自分は&nbsp;<img style=\"width:20px;\" src=\"images/icons/ico_red_m.jpg\" alt=\"화염\"> のカードをデッキに入れ、<img style=\"width:20px;\" src=\"images/icons/ico_red_m.jpg\" alt=\"화염\">&nbsp;以外のカードは全て同じ属性でなければならない。\n<br>\n<img style=\"width:33px;\" src=\"images/icons/ico_awk.jpg\" alt=\"각성\"> \n自分のリーダーレベルが5以上の場合、このカードを裏返す。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_red_m.jpg\" alt=\"화염\"> 以外のカードがあるなら相手は1枚ドローできる。\n<br>\n<br>\n<b>覚醒面</b><br>\n<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 自分の手札を1枚選んでトラッシュする。その後、自分のトラッシュゾーンから <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないコスト2以下のスキルカードを1枚選んで手札に加える。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1138.png"
   },
   {
@@ -48,6 +50,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_red_m.jpg\" alt=\"화염\"> 以外のカードがある場合、この攻撃が終わるまで対向ユニットのパワー-2000。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1136.png"
   },
   {
@@ -65,6 +68,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。<br>\n<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_red_m.jpg\" alt=\"화염\"> 以外のカードがある場合、このターンが終わるまで対向ユニットのパワー-4000。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1135.png"
   },
   {
@@ -82,6 +86,7 @@
     "effectHtml": "<img style=\"width:51px;\" src=\"images/icons/ico_psv.png\" alt=\"패시브\"> フィールドにある自分のユニット全ては <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> <b>略奪[1]</b>と<b>「</b> <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> この攻撃が終わるまでパワー+2000<b>」</b>を得る。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、このユニットを持ち主のデッキの下に置く。このターンの間、自分が次に手札から配置するユニット1枚はこのターンが終わるまで <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> <b>貫通[1]</b>を得る。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1134.png"
   },
   {
@@ -98,7 +103,8 @@
     "keyword": "エスケープ",
     "effectHtml": "<img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、フィールドにある相手のユニットを2枚まで選ぶ。このターンが終わるまで選んだユニット全てのパワーをこのユニットのパワー分下げる。このユニットを持ち主のデッキの下に置く。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュする。自分のトラッシュゾーンからコストの合計が2以下になるように <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないカードを2枚まで選んで手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1132.png"
   },
   {
@@ -115,7 +121,8 @@
     "keyword": "エスケープ",
     "effectHtml": "<img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、フィールドにある相手のユニットを2枚まで選ぶ。このターンが終わるまで選んだユニット全てのパワーをこのユニットのパワー分下げる。このユニットを持ち主のデッキの下に置く。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュする。自分のトラッシュゾーンからコストの合計が2以下になるように <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないカードを2枚まで選んで手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1133.png"
   },
   {
@@ -133,6 +140,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。<br>\n<img style=\"width:51px;\" src=\"images/icons/ico_psv.png\" alt=\"패시브\"> フィールドにある他の自分のユニット全ては<b>「</b> <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> この攻撃が終わるまでパワー+3000<b>」</b>を得る。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1131.png"
   },
   {
@@ -150,6 +158,7 @@
     "effectHtml": "<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> このターンが終わるまで相手は <img style=\"width:79px;\" src=\"images/icons/ico_dfd.png\" alt=\"디펜더\"> と <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 効果を発動できない。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> この攻撃が終わるまでパワー+2000。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1130.png"
   },
   {
@@ -167,6 +176,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。<br>\n<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_red_m.jpg\" alt=\"화염\"> 以外のカードがある場合、フィールドにある相手のユニットを1枚選び、このターンが終わるまでパワー-2000。この効果をこのターン中に発動したスキルの枚数分更に処理する。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1128.png"
   },
   {
@@ -184,6 +194,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。<br>\n<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_red_m.jpg\" alt=\"화염\"> 以外のカードがある場合、フィールドにある相手のユニットを1枚選び、このターンが終わるまでパワー-2000。この効果をこのターン中に発動したスキルの枚数分更に処理する。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1129.png"
   },
   {
@@ -200,7 +211,8 @@
     "keyword": "アタッカー、 クレジット",
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> この攻撃が終わるまで対向ユニットのパワー-4000。この効果でそのユニットをトラッシュしたなら、自分のトラッシュゾーンから <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないコスト2以下のスキルカードを1枚選んで手札に加える。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1127.png"
   },
   {
@@ -217,7 +229,8 @@
     "keyword": "エントリー",
     "effectHtml": "<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のトラッシュゾーンから&lt;夢幻の悪魔シセラ&gt;以外の <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないカードを1枚選んでデッキの下に置く。その後、このターンが終わるまで対向ユニットのパワー-1000。この効果は対向ユニットがある場合、更に発動できる。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1126.png"
   },
   {
@@ -234,7 +247,8 @@
     "keyword": "エントリー、 アタッカー、 ミックス",
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_red_m.jpg\" alt=\"화염\"> 以外のカードがある場合、コスト2以上のスキルが2枚以上あるなら、その中の1枚を選んでトラッシュする。この効果でトラッシュしたスキルの効果を発動できる。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> <b>貫通[X: このターン中に発動したスキルの枚数]。</b>Xが3以上なら、更にこの攻撃が終わるまで<b>デュエリスト</b>を得る。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュする。自分のトラッシュゾーンからコストの合計が2以下になるように <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないカードを2枚まで選んで手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1124.png"
   },
   {
@@ -251,7 +265,8 @@
     "keyword": "エントリー、 アタッカー、 ミックス",
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_red_m.jpg\" alt=\"화염\"> 以外のカードがある場合、コスト2以上のスキルが2枚以上あるなら、その中の1枚を選んでトラッシュする。この効果でトラッシュしたスキルの効果を発動できる。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> <b>貫通[X: このターン中に発動したスキルの枚数]。</b>Xが3以上なら、更にこの攻撃が終わるまで<b>デュエリスト</b>を得る。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュする。自分のトラッシュゾーンからコストの合計が2以下になるように <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないカードを2枚まで選んで手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1125.png"
   },
   {
@@ -269,6 +284,7 @@
     "effectHtml": "フィールドにある相手のユニットを1枚選び、自分のターンが終わるまでパワー-3000。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1123.png"
   },
   {
@@ -285,7 +301,8 @@
     "keyword": "-",
     "effectHtml": "フィールドにある <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たない自分のユニットを1枚選ぶ。その後、自分のトラッシュゾーンからそのユニットよりコストが低くい <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないカードを1枚選んで手札に加える。選んだユニットを持ち主のデッキの下に置く。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1122.png"
   },
   {
@@ -303,6 +320,7 @@
     "effectHtml": "フィールドにある自分のリーダーレベル以下のコストを持つ自分のユニット全てはこのターンが終わるまで <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\">&nbsp;<b>デュエリスト</b>を得る。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1121.png"
   },
   {
@@ -320,6 +338,7 @@
     "effectHtml": "フィールドにある相手のユニットを1枚選ぶ。そのユニットはこのターンが終わるまで<b>「</b> <img style=\"width:51px;\" src=\"images/icons/ico_psv.png\" alt=\"패시브\"> このユニットがトラッシュされた場合、自分のトラッシュゾーンにあるこのカードをダメージゾーンに置く<b>」</b>を得る。<div id=\"gtx-trans\" style=\"position: absolute; left: 440px; top: 59px;\"><div class=\"gtx-trans-icon\"></div></div>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1120.png"
   },
   {
@@ -337,6 +356,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\n<img style=\"width:51px;\" src=\"images/icons/ico_psv.png\" alt=\"패시브\"> 自分のターンの間、パワー+1000。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1119.png"
   },
   {
@@ -354,6 +374,7 @@
     "effectHtml": "<img style=\"width:192px;\" src=\"images/icons/ico_eq_att.png\" alt=\"장착 조건: 어태커를 가진 유닛\"><br>\n<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_red_m.jpg\" alt=\"화염\"> 以外のカードがある場合、<b>貫通[1]</b>を得る。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1118.png"
   },
   {
@@ -371,6 +392,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。<br>\n<img style=\"width:84px;\" src=\"images/icons/ico_lv4_link.gif\" alt=\"레벨링크: 4\"> 自分のリーダーレベルが4以上の場合、フィールドにある他の自分のユニット全てのパワー+2000。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1117.png"
   },
   {
@@ -388,6 +410,7 @@
     "effectHtml": "<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> フィールドにある自分のユニットを1枚選び、そのユニットのヒット分自分のデッキの上からカードを公開する。その中の1枚を選んで手札に加え、残りはトラッシュする。選んだユニットを持ち主のデッキの下に置く。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1116.png"
   },
   {
@@ -405,6 +428,7 @@
     "effectHtml": "<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のリーダーレベル+1。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1115.png"
   },
   {
@@ -422,6 +446,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_green_m.jpg\" alt=\"대지\"> 以外のカードがある場合、自分のリーダーレベルが10以上なら、このターンが終わるまで自分のサイズ+5。9以下なら自分の手札を1枚選んでトラッシュできる。その後、自分のリーダーレベル+2。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1114.png"
   },
   {
@@ -439,6 +464,7 @@
     "effectHtml": "<img style=\"width:85px;\" src=\"images/icons/ico_lv6_link.gif\" alt=\"레벨링크: 6\"> 自分のリーダーレベルが6以上の場合、パワー+2000。<br>\n<img style=\"width:84px;\" src=\"images/icons/ico_lv8_link.gif\" alt=\"레벨링크: 8\"> 自分のリーダーレベルが8以上の場合、パワー+2000、ヒット+1。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1113.png"
   },
   {
@@ -456,6 +482,7 @@
     "effectHtml": "<img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、自分の手札を1枚選んでトラッシュできる。その後、このユニットよりパワーが低い相手のユニットを1枚選んでトラッシュする。このユニットを持ち主のデッキの下に置く。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1112.png"
   },
   {
@@ -473,6 +500,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_green_m.jpg\" alt=\"대지\"> 以外のカードがある場合、自分のリーダーレベルが10以上なら、対向ユニットはこのターンが終わるまで攻撃を防御できない。9以下なら自分のリーダーレベル+2。<br>\n<img style=\"width:84px;\" src=\"images/icons/ico_lv8_link.gif\" alt=\"레벨링크: 8\"> 自分のリーダーレベルが8以上の場合、フィールドにある他の自分のユニット全てのパワー+3000。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1110.png"
   },
   {
@@ -490,6 +518,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_green_m.jpg\" alt=\"대지\"> 以外のカードがある場合、自分のリーダーレベルが10以上なら、対向ユニットはこのターンが終わるまで攻撃を防御できない。9以下なら自分のリーダーレベル+2。<br>\n<img style=\"width:84px;\" src=\"images/icons/ico_lv8_link.gif\" alt=\"레벨링크: 8\"> 自分のリーダーレベルが8以上の場合、フィールドにある他の自分のユニット全てのパワー+3000。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1111.png"
   },
   {
@@ -507,6 +536,7 @@
     "effectHtml": "<img style=\"width:84px;\" src=\"images/icons/ico_lv7_link.gif\" alt=\"레벨링크: 7\"> 自分のリーダーレベルが7以上の場合、パワー+5000。<br>\n<img style=\"width:84px;\" src=\"images/icons/ico_lv9_link.gif\" alt=\"레벨링크: 9\"> <img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 自分のリーダーレベルが9以上の場合、自分の手札を好きな枚数選んでトラッシュできる。その後、このターンが終わるまでトラッシュしたカード1枚につき、パワー+1000。対向ユニットよりパワーが12000以上高い場合、このターンが終わるまで <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> <b>突破</b>を得る。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1108.png"
   },
   {
@@ -524,6 +554,7 @@
     "effectHtml": "<img style=\"width:84px;\" src=\"images/icons/ico_lv7_link.gif\" alt=\"레벨링크: 7\"> 自分のリーダーレベルが7以上の場合、パワー+5000。<br>\n<img style=\"width:84px;\" src=\"images/icons/ico_lv9_link.gif\" alt=\"레벨링크: 9\"> <img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 自分のリーダーレベルが9以上の場合、自分の手札を好きな枚数選んでトラッシュできる。その後、このターンが終わるまでトラッシュしたカード1枚につき、パワー+1000。対向ユニットよりパワーが12000以上高い場合、このターンが終わるまで <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> <b>突破</b>を得る。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1109.png"
   },
   {
@@ -541,6 +572,7 @@
     "effectHtml": "フィールドにあるコスト3以下の自分のユニットを1枚選ぶ。そのユニットはこのターンが終わるまで「 <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 対向ユニットよりパワーが高い場合、この攻撃が終わるまで<b style=\"\">突破</b>を得る」を得る。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1107.png"
   },
   {
@@ -558,6 +590,7 @@
     "effectHtml": "フィールドにある自分のユニットを1枚選んで持ち主のデッキの下に置く。その後、自分の手札からそのユニットのコスト+3以下のユニットカードを1枚選んでそのユニットがあったユニットゾーンにサイズを無視して配置する。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1106.png"
   },
   {
@@ -575,6 +608,7 @@
     "effectHtml": "フィールドにある自分のユニットを1枚選んで持ち主のデッキの下に置く。自分のデッキの上からカードを3枚公開し、その中のユニットカードを1枚選んで空いている自分のユニットゾーンにサイズを無視して配置する。そのユニットのコストが自分のリーダーレベル以下なら、このスキルのコストはこのターンが終わるまで0になる。残りはトラッシュする。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュできる。トラッシュしなかったら、自分のリーダーレベル+1。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1104.png"
   },
   {
@@ -592,6 +626,7 @@
     "effectHtml": "フィールドにある自分のユニットを1枚選んで持ち主のデッキの下に置く。自分のデッキの上からカードを3枚公開し、その中のユニットカードを1枚選んで空いている自分のユニットゾーンにサイズを無視して配置する。そのユニットのコストが自分のリーダーレベル以下なら、このスキルのコストはこのターンが終わるまで0になる。残りはトラッシュする。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュできる。トラッシュしなかったら、自分のリーダーレベル+1。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1105.png"
   },
   {
@@ -609,6 +644,7 @@
     "effectHtml": "フィールドにある自分のユニット1枚とそのユニットのパワー以下の相手のユニットを1枚選ぶ。選んだ自分のユニットを持ち主のデッキの下に置く。その後、選んだ相手のユニットはこのターンが終わるまで攻撃を防御できない。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1103.png"
   },
   {
@@ -626,6 +662,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 対向ユニットよりパワーが3000以上高い場合、この攻撃が終わるまで<b>貫通[1]</b>を得る。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1102.png"
   },
   {
@@ -643,6 +680,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\nパワー+3000。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1101.png"
   },
   {
@@ -660,6 +698,7 @@
     "effectHtml": "<b>基本面</b><br>\n<img style=\"width:33px;\" src=\"images/icons/ico_vow.jpg\" alt=\"서약\"> \n自分は&nbsp;<img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> のカードをデッキに入れ、<img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードは全て同じ属性でなければならない。\n<br>\n<img style=\"width:33px;\" src=\"images/icons/ico_awk.jpg\" alt=\"각성\"> \n自分のリーダーレベルが5以上の場合、このカードを裏返す。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがあるなら相手は1枚ドローできる。\n<br>\n<br>\n<b>覚醒面</b><br>\n<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 以下の効果の内1つを選ぶ。<br>\n・フィールドにある自分のユニットを1枚選ぶ。そのユニットは相手のターンが終わるまで <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> <b>帰還</b>を得る。<br>\n・フィールドにある自分のユニットを1枚選んでトラッシュする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1099.png"
   },
   {
@@ -677,6 +716,7 @@
     "effectHtml": "<b>基本面</b><br>\n<img style=\"width:33px;\" src=\"images/icons/ico_vow.jpg\" alt=\"서약\"> \n自分は&nbsp;<img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> のカードをデッキに入れ、<img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードは全て同じ属性でなければならない。\n<br>\n<img style=\"width:33px;\" src=\"images/icons/ico_awk.jpg\" alt=\"각성\"> \n自分のリーダーレベルが5以上の場合、このカードを裏返す。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがあるなら相手は1枚ドローできる。\n<br>\n<br>\n<b>覚醒面</b><br>\n<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 以下の効果の内1つを選ぶ。<br>\n・フィールドにある自分のユニットを1枚選ぶ。そのユニットは相手のターンが終わるまで <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> <b>帰還</b>を得る。<br>\n・フィールドにある自分のユニットを1枚選んでトラッシュする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1100.png"
   },
   {
@@ -694,6 +734,7 @@
     "effectHtml": "<img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> フィールドにある相手のユニットを1枚選び、このターンが終わるまでパワー-2000。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがある場合、更にパワー-2000。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1098.png"
   },
   {
@@ -711,6 +752,7 @@
     "effectHtml": "<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> フィールドにある他の自分のユニットを1枚選ぶ。そのユニットは相手のターンが終わるまで <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> <b>帰還</b>を得る。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1097.png"
   },
   {
@@ -728,6 +770,7 @@
     "effectHtml": "<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> フィールドにある自分のユニットを1枚選んでトラッシュする。その後、このターンが終わるまで <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> <b>突破</b>を得る。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1096.png"
   },
   {
@@ -744,7 +787,8 @@
     "keyword": "エントリー、 クレジット",
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。<br>\n<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のトラッシュゾーンから <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> を持ち、<img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないユニットカードを1枚選び、そのカードが持つ <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 効果を1つ選んで発動できる。その後、そのカードをデッキの下に置く。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1095.png"
   },
   {
@@ -761,7 +805,8 @@
     "keyword": "エグジット、 ミックス",
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがある場合、パワー+2000。<br>\n<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがある場合、自分のトラッシュゾーンから <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないコスト2以下のユニットカードを1枚選んで空いている自分のユニットゾーンにサイズを無視して配置する。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1094.png"
   },
   {
@@ -779,6 +824,7 @@
     "effectHtml": "<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> フィールドにある自分のユニットを1枚選んでトラッシュする。<br>\n<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがある場合、フィールドにある対向ユニットを持たない相手のユニットを1枚選んでトラッシュする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1093.png"
   },
   {
@@ -795,7 +841,8 @@
     "keyword": "エントリー、 エグジット、 ミックス",
     "effectHtml": "<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のトラッシュゾーンから <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> を持ち、<img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないユニットカードを1枚選び、そのカードが持つ <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 効果を1つ選んで発動できる。その後、そのカードをデッキの下に置く。<br>\n<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがある場合、自分のトラッシュゾーンから <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないコスト2以下のユニットカードを1枚選んで空いている自分のユニットゾーンにサイズを無視して配置する。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1091.png"
   },
   {
@@ -812,7 +859,8 @@
     "keyword": "エントリー、 エグジット、 ミックス",
     "effectHtml": "<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のトラッシュゾーンから <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> を持ち、<img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないユニットカードを1枚選び、そのカードが持つ <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 効果を1つ選んで発動できる。その後、そのカードをデッキの下に置く。<br>\n<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがある場合、自分のトラッシュゾーンから <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないコスト2以下のユニットカードを1枚選んで空いている自分のユニットゾーンにサイズを無視して配置する。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1092.png"
   },
   {
@@ -830,6 +878,7 @@
     "effectHtml": "<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> フィールドにある他の自分のユニットを1枚選んでトラッシュする。トラッシュしなかったら、自分の手札を1枚選んでトラッシュする。<br>\n<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがある場合、フィールドにある一番低いコストを持つ相手のユニットを1枚選んでトラッシュする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1090.png"
   },
   {
@@ -846,7 +895,8 @@
     "keyword": "エグジット、 ミックス",
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがある場合、自分のトラッシュゾーンから <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないカードを9枚まで選んでデッキの下に置くことができる。その後、この効果で置いたカード3枚につき、相手に1ダメージを与える。<br>\n<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがある場合、<b>帰還</b>を得る。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p><div id=\"gtx-trans\" style=\"position: absolute; left: 419px; top: 105px;\"><div class=\"gtx-trans-icon\"></div></div>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1088.png"
   },
   {
@@ -863,7 +913,8 @@
     "keyword": "エグジット、 ミックス",
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがある場合、自分のトラッシュゾーンから <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないカードを9枚まで選んでデッキの下に置くことができる。その後、この効果で置いたカード3枚につき、相手に1ダメージを与える。<br>\n<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがある場合、<b>帰還</b>を得る。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p><div id=\"gtx-trans\" style=\"position: absolute; left: 419px; top: 105px;\"><div class=\"gtx-trans-icon\"></div></div>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1089.png"
   },
   {
@@ -880,7 +931,8 @@
     "keyword": "-",
     "effectHtml": "自分のトラッシュゾーンから <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> を持ち、<img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないユニットカードを1枚選んでデッキの下に置く。その後、そのカードのコスト以下の自分のユニットをフィールドから1枚選んでこのターンが終わるまでヒット+1。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1087.png"
   },
   {
@@ -898,6 +950,7 @@
     "effectHtml": "自分の手札からユニットカードを1枚選んでトラッシュする。その後、そのカードより低いコストを持つユニットをフィールドから1枚選んでトラッシュする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1086.png"
   },
   {
@@ -914,7 +967,8 @@
     "keyword": "-",
     "effectHtml": "自分のトラッシュゾーンから <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> を持ち、<img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないユニットカードを1枚選び、そのカードが持つ <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 効果を1つ選んで発動できる。その後、そのカードをデッキの下に置く。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがある場合、この効果を更にもう1度だけ処理する。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュする。自分のトラッシュゾーンから <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> を持ち、<img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないユニットカードを1枚選び、そのカードが持つ <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 効果を1つ選んで発動できる。その後、そのカードをデッキの下に置く。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1084.png"
   },
   {
@@ -931,7 +985,8 @@
     "keyword": "-",
     "effectHtml": "自分のトラッシュゾーンから <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> を持ち、<img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないユニットカードを1枚選び、そのカードが持つ <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 効果を1つ選んで発動できる。その後、そのカードをデッキの下に置く。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがある場合、この効果を更にもう1度だけ処理する。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュする。自分のトラッシュゾーンから <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> を持ち、<img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないユニットカードを1枚選び、そのカードが持つ <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 効果を1つ選んで発動できる。その後、そのカードをデッキの下に置く。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1085.png"
   },
   {
@@ -949,6 +1004,7 @@
     "effectHtml": "フィールドにある自分のユニットを1枚選んでトラッシュする。その後、2枚ドローする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1083.png"
   },
   {
@@ -966,6 +1022,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\nパワー+2000。<br>\n<img style=\"width:51px;\" src=\"images/icons/ico_psv.png\" alt=\"패시브\"> 相手のターンの終了時、自分の手札を1枚選んでトラッシュできる。トラッシュしなかったら、このユニットをトラッシュする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1082.png"
   },
   {
@@ -983,6 +1040,7 @@
     "effectHtml": "<img style=\"width:187px; margin-left:-3px;\" src=\"images/icons/ico_eq_3cost_more.gif\" alt=\"장착 조건: 3코스트 이상인 유닛\"><br>\n<img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> <b>帰還。</b>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1081.png"
   },
   {
@@ -1000,6 +1058,7 @@
     "effectHtml": "<img style=\"width:51px;\" src=\"images/icons/ico_psv.png\" alt=\"패시브\"> <img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> を持つ自分のユニット全てのパワー+1500。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、このユニットを持ち主のデッキの下に置く。1枚ドローする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1080.png"
   },
   {
@@ -1017,6 +1076,7 @@
     "effectHtml": "<img style=\"width:79px;\" src=\"images/icons/ico_dfd.png\" alt=\"디펜더\"> 攻撃したユニットのヒット-1分だけ自分の手札を選んでトラッシュできる。その後、この攻撃を終了させる。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1079.png"
   },
   {
@@ -1034,6 +1094,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_blue.jpg\" alt=\"파도\"> 以外のカードがある場合、<b>潜入[1]</b>を得る。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 自分の手札が6枚以上の場合、この攻撃が終わるまで<b>突破</b>を得る。<div id=\"gtx-trans\" style=\"position: absolute; left: 368px; top: 69px;\"><div class=\"gtx-trans-icon\"></div></div>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1078.png"
   },
   {
@@ -1051,6 +1112,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。<br>\n<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 対向ユニットがコスト4以下の場合、自分の手札を1枚選んでトラッシュできる。その後、そのユニットを持ち主の手札に戻し、このターンが終わるまでこのユニットのヒットは1になる。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1077.png"
   },
   {
@@ -1068,6 +1130,7 @@
     "effectHtml": "<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 対向ユニットがコスト4以上の場合、自分の手札を1枚選んでトラッシュできる。その後、そのユニットを持ち主の手札に戻し、このターンが終わるまでこのユニットのヒットは1になる。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、このユニットを持ち主のデッキの下に置く。1枚ドローする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1076.png"
   },
   {
@@ -1085,6 +1148,7 @@
     "effectHtml": "<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> フィールドにある自分のユニットを1枚選んで自分の手札を1枚選んでトラッシュできる。その後、そのユニットはこのターンが終わるまで <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> <b>突破[コスト超え]</b>(このユニットより高いコストを持つ相手のユニットはこのユニットの攻撃を防御できない)を得る。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュする。自分のデッキの上からカードを1枚公開し、その中のスキルカードを1枚選んでトラッシュできる。その後、そのカードの効果を発動する。残りは手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1074.png"
   },
   {
@@ -1102,6 +1166,7 @@
     "effectHtml": "<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> フィールドにある自分のユニットを1枚選んで自分の手札を1枚選んでトラッシュできる。その後、そのユニットはこのターンが終わるまで <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> <b>突破[コスト超え]</b>(このユニットより高いコストを持つ相手のユニットはこのユニットの攻撃を防御できない)を得る。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュする。自分のデッキの上からカードを1枚公開し、その中のスキルカードを1枚選んでトラッシュできる。その後、そのカードの効果を発動する。残りは手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1075.png"
   },
   {
@@ -1119,6 +1184,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_gud.png\" alt=\"가디언\"> <b>防壁[2]。</b><br>\n<img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、このユニットを持ち主のデッキの下に置く。1枚ドローする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1073.png"
   },
   {
@@ -1136,6 +1202,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_blue.jpg\" alt=\"파도\"> 以外のカードがある場合、フィールドにある自分のユニットを1枚選び、そのユニットを持ち主のデッキの下に置くことができる。そのユニットが <img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> を持つ場合、相手に1ダメージを与える。<br>\n<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> フィールドにある自分のユニットを1枚選ぶ。そのユニットは次の自分のターンが終わるまで<b>「</b><img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、このユニットを持ち主のデッキの下に置く。1枚ドローし、相手に1ダメージを与える<b>」</b>を得る。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1071.png"
   },
   {
@@ -1153,6 +1220,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_blue.jpg\" alt=\"파도\"> 以外のカードがある場合、フィールドにある自分のユニットを1枚選び、そのユニットを持ち主のデッキの下に置くことができる。そのユニットが <img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> を持つ場合、相手に1ダメージを与える。<br>\n<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> フィールドにある自分のユニットを1枚選ぶ。そのユニットは次の自分のターンが終わるまで<b>「</b><img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、このユニットを持ち主のデッキの下に置く。1枚ドローし、相手に1ダメージを与える<b>」</b>を得る。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1072.png"
   },
   {
@@ -1170,6 +1238,7 @@
     "effectHtml": "<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 自分の手札を1枚選んでトラッシュできる。その後、自分のスキルゾーンにあるスキルの枚数分相手にダメージを与える。このユニットはこのターンが終わるまで攻撃できない。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1070.png"
   },
   {
@@ -1187,6 +1256,7 @@
     "effectHtml": "フィールドにある <img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> を持つ自分のユニットを1枚選ぶ。そのユニットが持つ <img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 効果を1つ選んで発動する。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1068.png"
   },
   {
@@ -1204,6 +1274,7 @@
     "effectHtml": "フィールドにある <img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> を持つ自分のユニットを1枚選ぶ。そのユニットが持つ <img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 効果を1つ選んで発動する。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1069.png"
   },
   {
@@ -1221,6 +1292,7 @@
     "effectHtml": "フィールドにある対向ユニットと <img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> を持つ自分のユニットを1枚選ぶ。相手はそのユニットの対向ユニットを持ち主の手札に戻すことができる。戻さなかったら、自分は選んだユニットのヒット分ドローする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1067.png"
   },
   {
@@ -1238,6 +1310,7 @@
     "effectHtml": "フィールドにある自分のリーダーレベル以上のコストを持つ相手のユニットを1枚選ぶ。そのユニットはこのターンが終わるまで攻撃を防御できない。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1066.png"
   },
   {
@@ -1255,6 +1328,7 @@
     "effectHtml": "2枚ドローする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1065.png"
   },
   {
@@ -1272,6 +1346,7 @@
     "effectHtml": "<img style=\"width:187px;\" src=\"images/icons/ico_eq_6cost_dw.png\" alt=\"장착 조건: 6코스트 이하인 유닛\"><br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 対向ユニットよりコストが3以上低い場合、この攻撃が終わるまで<b>突破</b>を得る。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1064.png"
   },
   {
@@ -1289,6 +1364,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\n<img style=\"width:70px;\" src=\"images/icons/ico_gud.png\" alt=\"가디언\"> <b>防壁[2]。</b><div id=\"gtx-trans\" style=\"position: absolute; left: 140px; top: 66px;\"><div class=\"gtx-trans-icon\"></div></div>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1063.png"
   },
   {
@@ -1306,6 +1382,7 @@
     "effectHtml": "<b>基本面</b><br>\n<img style=\"width:33px;\" src=\"images/icons/ico_vow.jpg\" alt=\"서약\"> \n自分はデッキに&nbsp;<img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> のカードを入れ、<img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードは全て同じ属性でなければならない。\n<br>\n<img style=\"width:33px;\" src=\"images/icons/ico_awk.jpg\" alt=\"각성\"> \n自分のリーダーレベルが5以上の場合、このカードを裏返す。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードがあるなら相手は1枚ドローできる。\n<br>\n<br>\n<b>覚醒面</b><br>\n<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 自分の手札を1枚選んでトラッシュする。その後、自分のトラッシュゾーンからこの効果でトラッシュしたカードとカード名が異なるアイテムカードを1枚選んでフィールドにある自分のユニットにサイズを無視して装備できる。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1061.png"
   },
   {
@@ -1323,6 +1400,7 @@
     "effectHtml": "<b>基本面</b><br>\n<img style=\"width:33px;\" src=\"images/icons/ico_vow.jpg\" alt=\"서약\"> \n自分はデッキに&nbsp;<img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> のカードを入れ、<img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードは全て同じ属性でなければならない。\n<br>\n<img style=\"width:33px;\" src=\"images/icons/ico_awk.jpg\" alt=\"각성\"> \n自分のリーダーレベルが5以上の場合、このカードを裏返す。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードがあるなら相手は1枚ドローできる。\n<br>\n<br>\n<b>覚醒面</b><br>\n<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 自分の手札を1枚選んでトラッシュする。その後、自分のトラッシュゾーンからこの効果でトラッシュしたカードとカード名が異なるアイテムカードを1枚選んでフィールドにある自分のユニットにサイズを無視して装備できる。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1062.png"
   },
   {
@@ -1340,6 +1418,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1060.png"
   },
   {
@@ -1357,6 +1436,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードがある場合、自分のデッキの上からカードを3枚トラッシュできる。その後、自分のダメージゾーンからカードを1枚選んで手札に加える。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュする。自分のデッキからコスト1以下のアイテムカードを1枚選んで手札に加える。デッキをシャッフルする。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1058.png"
   },
   {
@@ -1374,6 +1454,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードがある場合、自分のデッキの上からカードを3枚トラッシュできる。その後、自分のダメージゾーンからカードを1枚選んで手札に加える。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュする。自分のデッキからコスト1以下のアイテムカードを1枚選んで手札に加える。デッキをシャッフルする。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1059.png"
   },
   {
@@ -1391,6 +1472,7 @@
     "effectHtml": "<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のデッキの上からカードを3枚トラッシュする。この効果でアイテムカードを1枚以上トラッシュした場合、1枚ドローする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1057.png"
   },
   {
@@ -1408,6 +1490,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:48px;\" src=\"images/icons/ico_amd.png\" alt=\"암드\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードがある場合、このユニットが装備しているアイテム1種類につき、パワー+2000。このユニットが4種類以上のアイテムを装備している場合、更に <b>「</b> <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 1枚ドローする。相手に2ダメージを与える<b>」</b>を得る。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1055.png"
   },
   {
@@ -1425,6 +1508,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:48px;\" src=\"images/icons/ico_amd.png\" alt=\"암드\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードがある場合、このユニットが装備しているアイテム1種類につき、パワー+2000。このユニットが4種類以上のアイテムを装備している場合、更に <b>「</b> <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 1枚ドローする。相手に2ダメージを与える<b>」</b>を得る。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1056.png"
   },
   {
@@ -1442,6 +1526,7 @@
     "effectHtml": "<img style=\"width:51px;\" src=\"images/icons/ico_psv.png\" alt=\"패시브\"> フィールドにあるアイテムを装備している自分のユニット全てのパワー+2000。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1054.png"
   },
   {
@@ -1458,7 +1543,8 @@
     "keyword": "エグジット、 ミックス",
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードがある場合、自分のダメージゾーンからカードを1枚選んで手札に加える。その後、自分のトラッシュゾーンから <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないカードを1枚選んでダメージゾーンに置く。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1053.png"
   },
   {
@@ -1476,6 +1562,7 @@
     "effectHtml": "<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分の手札を2枚まで選んでトラッシュし、トラッシュしたカードの枚数分ドローする。この効果でアイテムカードを2枚以上トラッシュした場合、更に1枚ドローする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1052.png"
   },
   {
@@ -1493,6 +1580,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:48px;\" src=\"images/icons/ico_amd.png\" alt=\"암드\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードがある場合、アイテムを装備しているなら、パワー+3000、ヒット+1。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1051.png"
   },
   {
@@ -1510,6 +1598,7 @@
     "effectHtml": "<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のデッキの上からカードを3枚公開する。その中の3枚までを選んでトラッシュし、残りはデッキに戻し、シャッフルする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1049.png"
   },
   {
@@ -1527,6 +1616,7 @@
     "effectHtml": "<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 自分のデッキの上からカードを3枚公開する。その中の3枚までを選んでトラッシュし、残りはデッキに戻し、シャッフルする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1050.png"
   },
   {
@@ -1544,6 +1634,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードがある場合、このユニットがアイテムを1枚以上装備するたびに、1枚ドローする。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> この攻撃が終わるまでこのユニットが装備しているアイテム1枚につき、パワー+2000。このユニットが装備しているアイテムを2枚選んでトラッシュできる。その後、他のレーンにある相手のユニットを1枚選んでトラッシュする。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1047.png"
   },
   {
@@ -1561,6 +1652,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードがある場合、このユニットがアイテムを1枚以上装備するたびに、1枚ドローする。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> この攻撃が終わるまでこのユニットが装備しているアイテム1枚につき、パワー+2000。このユニットが装備しているアイテムを2枚選んでトラッシュできる。その後、他のレーンにある相手のユニットを1枚選んでトラッシュする。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1048.png"
   },
   {
@@ -1578,6 +1670,7 @@
     "effectHtml": "自分の手札からアイテムカードを1枚以上選んでトラッシュする。その後、トラッシュしたカードの枚数分ドローする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1046.png"
   },
   {
@@ -1595,6 +1688,7 @@
     "effectHtml": "フィールドにあるアイテムを装備している自分のユニットを1枚選び、このターンが終わるまでヒット+1。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1045.png"
   },
   {
@@ -1611,7 +1705,8 @@
     "keyword": "-",
     "effectHtml": "2枚ドローする。その後、自分の手札を2枚選んでトラッシュする。自分のトラッシュゾーンから <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たず、カード名が異なるアイテムカードを2枚まで選んで自分の手札に加える。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュする。自分のデッキからコスト1以下のアイテムカードを1枚選んで手札に加える。デッキをシャッフルする。\n</p>",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1044.png"
   },
   {
@@ -1629,6 +1724,7 @@
     "effectHtml": "自分のトラッシュゾーンからアイテムカードを1枚選んでフィールドにある自分のユニットにサイズを無視して装備する。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードがある場合、このカードをトラッシュする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1043.png"
   },
   {
@@ -1646,6 +1742,7 @@
     "effectHtml": "フィールドにあるアイテムを装備している自分のユニットを1枚選んでトラッシュする。その後、2枚ドローし、自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードがある場合、相手に1ダメージを与える。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1042.png"
   },
   {
@@ -1663,6 +1760,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\n<img style=\"width:51px;\" src=\"images/icons/ico_psv.png\" alt=\"패시브\"> 自分と相手のターンに1回ずつ、このユニットが戦闘/効果でトラッシュされる時、自分のデッキの上からカードを3枚トラッシュできる。この効果でアイテムカードを1枚以上トラッシュした場合、このユニットはトラッシュされない。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1041.png"
   },
   {
@@ -1680,6 +1778,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\nパワー+1000。<br>\n<img style=\"width:105px;\" src=\"images/icons/ico_atv_atc.gif\" alt=\"액티브: 어택\"> フィールドにある自分のユニットが装備している〈アストラペー〉以外のアイテムを1枚選んで他の自分のユニットに装備する。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1040.png"
   },
   {
@@ -1697,6 +1796,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\n<img style=\"width:51px;\" src=\"images/icons/ico_psv.png\" alt=\"패시브\"> パワー+2000。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_yellow.jpg\" alt=\"번개\"> 以外のカードがある場合、更にパワー+1000。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1039.png"
   },
   {
@@ -1714,6 +1814,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\n<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 1枚ドローする。その後、自分の手札を1枚選んでトラッシュする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1038.png"
   },
   {
@@ -1731,6 +1832,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 1枚ドローする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1037.png"
   },
   {
@@ -1748,6 +1850,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\n<img style=\"width:51px;\" src=\"images/icons/ico_psv.png\" alt=\"패시브\"> このユニットが装備しているアイテム1枚につき、パワー+1000。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1036.png"
   },
   {
@@ -1765,6 +1868,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\nヒット+1。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1035.png"
   },
   {
@@ -1781,7 +1885,8 @@
     "keyword": "アタッカー",
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 自分のトラッシュゾーンから <img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たず、このユニットが装備しているアイテムの枚数以下のコストを持つスキルカードかアイテムカードを1枚選んで手札に加える。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05〈祭り〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1034.png"
   },
   {
@@ -1799,6 +1904,7 @@
     "effectHtml": "<b>基本面</b><br>\n<img style=\"width:33px;\" src=\"images/icons/ico_vow.jpg\" alt=\"서약\"> \n自分は&nbsp;<img style=\"width:20px;\" src=\"images/icons/ico_green_m.jpg\" alt=\"대지\"> のカードをデッキに入れ、<img style=\"width:20px;\" src=\"images/icons/ico_green_m.jpg\" alt=\"대지\"> 以外のカードは全て同じ属性でなければならない。\n<br>\n<img style=\"width:33px;\" src=\"images/icons/ico_awk.jpg\" alt=\"각성\"> \n自分のリーダーレベルが7以上の場合、このカードを裏返す。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_green_m.jpg\" alt=\"대지\"> 以外のカードがあるなら相手は1枚ドローできる。\n<br>\n<br>\n<b>覚醒面</b><br>\n<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 自分の手札を1枚選んでトラッシュする。その後、自分のデッキの上からカードを1枚公開し、その中のユニットカードを1枚選んで空いている自分のユニットゾーンにサイズを無視して配置できる。残りはトラッシュする。",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1014.png"
   },
   {
@@ -1816,6 +1922,7 @@
     "effectHtml": "<b>基本面</b><br>\n<img style=\"width:33px;\" src=\"images/icons/ico_vow.jpg\" alt=\"서약\"> \n自分は&nbsp;<img style=\"width:20px;\" src=\"images/icons/ico_green_m.jpg\" alt=\"대지\"> のカードをデッキに入れ、<img style=\"width:20px;\" src=\"images/icons/ico_green_m.jpg\" alt=\"대지\"> 以外のカードは全て同じ属性でなければならない。\n<br>\n<img style=\"width:33px;\" src=\"images/icons/ico_awk.jpg\" alt=\"각성\"> \n自分のリーダーレベルが7以上の場合、このカードを裏返す。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_green_m.jpg\" alt=\"대지\"> 以外のカードがあるなら相手は1枚ドローできる。\n<br>\n<br>\n<b>覚醒面</b><br>\n<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 自分の手札を1枚選んでトラッシュする。その後、自分のデッキの上からカードを1枚公開し、その中のユニットカードを1枚選んで空いている自分のユニットゾーンにサイズを無視して配置できる。残りはトラッシュする。",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1015.png"
   },
   {
@@ -1833,6 +1940,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1013.png"
   },
   {
@@ -1850,6 +1958,7 @@
     "effectHtml": "<img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、このユニットを持ち主のデッキの下に置く。自分のリーダーレベル+1。",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1012.png"
   },
   {
@@ -1867,6 +1976,7 @@
     "effectHtml": "<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> 自分の手札から自分のリーダーレベル以下のコストを持つユニットカードを1枚選んで空いている自分のユニットゾーンにサイズを無視して配置できる。そのユニットはこのターンが終わるまで攻撃できない。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1011.png"
   },
   {
@@ -1884,6 +1994,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1010.png"
   },
   {
@@ -1901,6 +2012,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05プロモーションカード",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1143.png"
   },
   {
@@ -1918,6 +2030,7 @@
     "effectHtml": "<img style=\"width:85px;\" src=\"images/icons/ico_lv6_link.gif\" alt=\"레벨링크: 6\"> 自分のリーダーレベルが6以上の場合、フィールドにある他の自分のユニット全てのパワー+2000。<br>\n<img style=\"width:84px;\" src=\"images/icons/ico_lv8_link.gif\" alt=\"레벨링크: 8\">&nbsp;<img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のリーダーレベルが8以上の場合、自分のメインフェイズ開始時、このユニットを持ち主のデッキの下に置く。その後、自分のデッキの上からカードを3枚公開し、その中のユニットカードを1枚選んで空いている自分のユニットゾーンにサイズを無視して配置する。そのユニットはこのターンが終わるまでコスト0になり、パワー+5000、ヒット+1。残りはトラッシュする。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュできる。トラッシュしなかったら、自分のリーダーレベル+1。\n</p>",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1009.png"
   },
   {
@@ -1935,6 +2048,7 @@
     "effectHtml": "<img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、このユニットを持ち主のデッキの下に置く。相手のターンが終わるまで相手が手札からパワー4000以下のユニットを配置するたびに、自分は1枚ドローし、相手に1ダメージを与える。",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1008.png"
   },
   {
@@ -1952,6 +2066,7 @@
     "effectHtml": "自分のリーダーレベル+1。",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1007.png"
   },
   {
@@ -1969,6 +2084,7 @@
     "effectHtml": "自分のデッキの上からカードを1枚公開し、その中のユニットカードを1枚選んで空いている自分のユニットゾーンにサイズを無視して配置する。残りはトラッシュする。",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1006.png"
   },
   {
@@ -1986,6 +2102,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\nパワー+1000。",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1005.png"
   },
   {
@@ -2003,6 +2120,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> この攻撃が終わるまでパワー+2000。",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1004.png"
   },
   {
@@ -2020,6 +2138,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> この攻撃が終わるまでパワー+3000。",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1003.png"
   },
   {
@@ -2037,6 +2156,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> この攻撃が終わるまでパワー+3000。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05プロモーションカード",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1142.png"
   },
   {
@@ -2054,6 +2174,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_2.gif\" alt=\"크레딧2\"> このユニットが配置された場合、2枚ドローする。このユニットがトラッシュされた場合、自分の手札を2枚選んでトラッシュする。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> この攻撃が終わるまでパワー+4000。",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1002.png"
   },
   {
@@ -2071,6 +2192,7 @@
     "effectHtml": "<img style=\"width:51px;\" src=\"images/icons/ico_psv.png\" alt=\"패시브\">\n自分の手札1枚につき、パワー-1000。<br>\n<img style=\"width:105px;\" src=\"images/icons/ico_atv_atc.gif\" alt=\"액티브: 어택\">\nこのユニットのパワーが11000以上の場合、このターンのアタックフェイズ中に更に1度攻撃できる。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1001.png"
   },
   {
@@ -2087,7 +2209,8 @@
     "keyword": "-",
     "effectHtml": "フィールドにある自分のユニットを1枚選び、自分のターンが終わるまでパワー+2000。そのユニットが&nbsp;<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\">&nbsp;を持つ場合、自分のトラッシュゾーンから&nbsp;<img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\">&nbsp;を持たないコスト2のスキルカードを1枚選んで手札に加える。",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1000.png"
   },
   {
@@ -2105,6 +2228,7 @@
     "effectHtml": "自分のスキルゾーンにあるスキル全てをトラッシュする。この効果でスキルを3枚以上トラッシュした場合、相手に1ダメージを与える。自分はこのターンが終わるまで〈深い闇の中へ〉を発動できない。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/999.png"
   },
   {
@@ -2122,6 +2246,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\">&nbsp;自分と相手の手札の枚数が違う場合、この攻撃が終わるまでその差1枚につき、対向ユニットのパワー-1000。",
     "productName": "エターナルリターン NivelArenaスターターデッキST08〈Anniversary〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/998.png"
   },
   {
@@ -2139,6 +2264,7 @@
     "effectHtml": "<b>基本面</b><br>\n<img style=\"width:33px;\" src=\"images/icons/ico_vow.jpg\" alt=\"서약\"> \n自分は&nbsp;<img style=\"width:20px;\" src=\"images/icons/ico_blue.jpg\" alt=\"파도\"> のカードをデッキに入れ、<img style=\"width:20px;\" src=\"images/icons/ico_blue.jpg\" alt=\"파도\"> 以外のカードは全て同じ属性でなければならない。\n<br>\n<img style=\"width:33px;\" src=\"images/icons/ico_awk.jpg\" alt=\"각성\"> \n自分のリーダーレベルが5以上の場合、このカードを裏返す。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_blue.jpg\" alt=\"파도\"> 以外のカードがあるなら相手は1枚ドローできる。\n<br>\n<br>\n<b>覚醒面</b><br>\n<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> フィールドにある自分のユニットを1枚選ぶ。そのユニットは次の自分のターンが終わるまで<b>「</b><img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、このユニットを持ち主のデッキの下に置く。相手に1ダメージを与える<b>」</b>を得る。",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1032.png"
   },
   {
@@ -2156,6 +2282,7 @@
     "effectHtml": "<b>基本面</b><br>\n<img style=\"width:33px;\" src=\"images/icons/ico_vow.jpg\" alt=\"서약\"> \n自分は&nbsp;<img style=\"width:20px;\" src=\"images/icons/ico_blue.jpg\" alt=\"파도\"> のカードをデッキに入れ、<img style=\"width:20px;\" src=\"images/icons/ico_blue.jpg\" alt=\"파도\"> 以外のカードは全て同じ属性でなければならない。\n<br>\n<img style=\"width:33px;\" src=\"images/icons/ico_awk.jpg\" alt=\"각성\"> \n自分のリーダーレベルが5以上の場合、このカードを裏返す。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_blue.jpg\" alt=\"파도\"> 以外のカードがあるなら相手は1枚ドローできる。\n<br>\n<br>\n<b>覚醒面</b><br>\n<img style=\"width:96px;\" src=\"images/icons/ico_atv_main.png\" alt=\"액티브: 메인\"> フィールドにある自分のユニットを1枚選ぶ。そのユニットは次の自分のターンが終わるまで<b>「</b><img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、このユニットを持ち主のデッキの下に置く。相手に1ダメージを与える<b>」</b>を得る。",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1033.png"
   },
   {
@@ -2173,6 +2300,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、このユニットを持ち主のデッキの下に置く。1枚ドローする。",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1031.png"
   },
   {
@@ -2190,6 +2318,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_blue.jpg\" alt=\"파도\"> 以外のカードがある場合、フィールドにある自分のユニット全ては <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> <b>潜入[1]</b>(このユニットの攻撃を相手のユニットに防御されなかった場合、1枚ドローする)を得る。<br>\n<img style=\"width:79px;\" src=\"images/icons/ico_dfd.png\" alt=\"디펜더\"> この防御が終わるまでパワー+3000。",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1030.png"
   },
   {
@@ -2207,6 +2336,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_blue.jpg\" alt=\"파도\"> 以外のカードがある場合、<b>潜入[2]</b>(このユニットの攻撃を相手のユニットに防御されなかった場合、2枚ドローする)を得る。",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1029.png"
   },
   {
@@ -2224,6 +2354,7 @@
     "effectHtml": "<img style=\"width:46px;\" src=\"images/icons/ico_mix.gif\" alt=\"믹스\"> <img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> 自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_blue.jpg\" alt=\"파도\"> 以外のカードがある場合、<b>潜入[2]</b>(このユニットの攻撃を相手のユニットに防御されなかった場合、2枚ドローする)を得る。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05プロモーションカード",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1141.png"
   },
   {
@@ -2241,6 +2372,7 @@
     "effectHtml": "<img style=\"width:51px;\" src=\"images/icons/ico_psv.png\" alt=\"패시브\"> 自分のターンの終了時、自分の手札が8枚以上なら7枚になるように手札を選んでトラッシュする。その後、トラッシュしたカードの枚数分相手にダメージを与える。<br>\n<img style=\"width:60px;\" src=\"images/icons/ico_escape.gif\" alt=\"이스케이프\"> 自分のメインフェイズ開始時、このユニットを持ち主のデッキの下に置く。1枚ドローする。",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1028.png"
   },
   {
@@ -2258,6 +2390,7 @@
     "effectHtml": "<img style=\"width:51px;\" src=\"images/icons/ico_psv.png\" alt=\"패시브\"> 自分と相手のターンに1回ずつ、フィールドにある他の自分のユニットが自分のデッキの下に置かれた場合、相手にそのユニットのヒット分のダメージを与えることができる。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1027.png"
   },
   {
@@ -2275,6 +2408,7 @@
     "effectHtml": "このターンが終わるまで自分の効果で相手にダメージを与えるたびに、1枚ドローする。自分はこのターンが終わるまで〈夢幻の蝶〉を発動できない。",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1026.png"
   },
   {
@@ -2292,6 +2426,7 @@
     "effectHtml": "このターンが終わるまで自分の効果で相手にダメージを与えるたびに、1枚ドローする。自分はこのターンが終わるまで〈夢幻の蝶〉を発動できない。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05プロモーションカード",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1140.png"
   },
   {
@@ -2309,6 +2444,7 @@
     "effectHtml": "自分のデッキの上からカードを5枚トラッシュする。この効果でトラッシュしたカードの中のスキルカードを1枚選んで効果を発動できる。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュする。自分のデッキの上からカードを1枚公開し、その中のスキルカードを1枚選んでトラッシュできる。その後、そのカードの効果を発動する。残りは手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1025.png"
   },
   {
@@ -2326,6 +2462,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\n<img style=\"width:60px;\" src=\"images/icons/ico_atc.png\" alt=\"어태커\"> <b>潜入[1]</b>(このユニットの攻撃を相手のユニットに防御されなかった場合、1枚ドローする)。",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1024.png"
   },
   {
@@ -2343,6 +2480,7 @@
     "effectHtml": "<img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> フィールドにある自分のユニットを1枚選び、このターンが終わるまでヒット+1。",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1023.png"
   },
   {
@@ -2360,6 +2498,7 @@
     "effectHtml": "<img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 1枚ドローする。",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1022.png"
   },
   {
@@ -2377,6 +2516,7 @@
     "effectHtml": "<img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 1枚ドローする。",
     "productName": "エターナルリターン NivelArenaブースターパックBT05プロモーションカード",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1139.png"
   },
   {
@@ -2393,7 +2533,8 @@
     "keyword": "エントリー、 エグジット",
     "effectHtml": "<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> フィールドにある他の自分のユニット1枚とそのユニットのコスト以下の相手のユニットを1枚選ぶことができる。その後、選んだユニットを全てトラッシュする。<br>\n<img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> フィールドにあるコスト2以下のユニットを1枚選んでトラッシュできる。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードをトラッシュする。自分のトラッシュゾーンから <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> を持ち、<img style=\"width:52px;\" src=\"images/icons/ico_trigger.png\" alt=\"트리거\"> を持たないユニットカードを1枚選び、そのカードが持つ <img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 効果を1つ選んで発動できる。その後、そのカードをデッキの下に置く。\n</p>",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
-    "maxCopies": 8,
+    "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1021.png"
   },
   {
@@ -2411,6 +2552,7 @@
     "effectHtml": "<img style=\"width:51px;\" src=\"images/icons/ico_psv.png\" alt=\"패시브\"> 自分と相手のターンに1回ずつ、フィールドにあるユニットが自分の効果でトラッシュされた場合、自分の手札を1枚選んでトラッシュできる。その後、その効果でトラッシュされたユニットの枚数分相手にダメージを与える。\n<br>\n<p class=\"triger_box\">\n<b>トリガー</b> / \nこのカードを自分の手札に加える。\n</p>",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": true,
     "image": "images/cards/1020.png"
   },
   {
@@ -2428,6 +2570,7 @@
     "effectHtml": "<img style=\"width:70px;\" src=\"images/icons/ico_credit_1.gif\" alt=\"크레딧1\"> このユニットが配置された場合、1枚ドローする。このユニットがトラッシュされた場合、自分の手札を1枚選んでトラッシュする。<br>\n<img style=\"width:58px;\" src=\"images/icons/ico_ent.png\" alt=\"엔트리\"> 対向ユニットのヒット分自分の手札を選んでトラッシュできる。その後、対向ユニットをトラッシュする。",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1019.png"
   },
   {
@@ -2445,6 +2588,7 @@
     "effectHtml": "フィールドにある自分のユニット1枚とそのユニットより低いコストを持つ相手のユニットを1枚選ぶ。その後、選んだユニットを全てトラッシュする。",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1018.png"
   },
   {
@@ -2462,6 +2606,7 @@
     "effectHtml": "フィールドにある自分のユニットを1枚選んでトラッシュする。その後、相手に1ダメージを与える。自分のフィールドに <img style=\"width:20px;\" src=\"images/icons/ico_violet_m.jpg\" alt=\"폭풍\"> 以外のカードがある場合、1枚ドローできる。",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1017.png"
   },
   {
@@ -2479,6 +2624,7 @@
     "effectHtml": "<img style=\"width:92px; margin-left:-3px;\" src=\"images/icons/ico_eq_none.png\" alt=\"장착 조건: 없음\"><br>\n<img style=\"width:59px;\" src=\"images/icons/ico_exit.png\" alt=\"엑시트\"> 2枚ドローする。",
     "productName": "エターナルリターン NivelArenaスターターデッキST09〈トロピカル〉",
     "maxCopies": 3,
+    "hasTrigger": false,
     "image": "images/cards/1016.png"
   }
 ]

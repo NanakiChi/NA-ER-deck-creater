@@ -4,6 +4,7 @@ const ATTRS = ["炎", "大地", "嵐", "波濤", "稲妻"];
 const TYPES = ["リーダー", "ユニット", "スキル", "アイテム"];
 const RARITIES = ["L", "SPL", "C", "R", "SR", "UR", "SPR", "P"];
 const DECK_SIZE = 40; // non-leader cards
+const TRIGGER_CAP = 8; // deck-wide cap on cards with a triggered ability
 const STORAGE_KEY = "nivelarena-deck-v1";
 
 let CARDS = [];
@@ -155,6 +156,15 @@ function totalDeckCount() {
   return Object.values(state.deck.cards).reduce((a, b) => a + b, 0);
 }
 
+function triggerCountInDeck() {
+  let total = 0;
+  for (const [id, count] of Object.entries(state.deck.cards)) {
+    const c = byId.get(id);
+    if (c && c.hasTrigger) total += count;
+  }
+  return total;
+}
+
 function currentLeader() {
   return state.deck.leaderId ? byId.get(state.deck.leaderId) : null;
 }
@@ -201,6 +211,7 @@ function cardTileHtml(c) {
       <div class="tile-img-wrap">
         <img src="${c.image}" loading="lazy" alt="${escapeHtml(c.name)}">
         ${badge}
+        ${c.hasTrigger ? `<div class="trigger-badge tile-trigger-badge" title="トリガー効果">T</div>` : ""}
       </div>
       <div class="tile-name">${escapeHtml(c.name)}</div>
       <div class="tile-info">
@@ -237,6 +248,11 @@ function quickAdd(c) {
   if (totalDeckCount() >= DECK_SIZE) {
     if (justLockedSecondary) state.deck.secondaryAttr = null;
     toast(`デッキは${DECK_SIZE}枚までです`);
+    return;
+  }
+  if (c.hasTrigger && triggerCountInDeck() >= TRIGGER_CAP) {
+    if (justLockedSecondary) state.deck.secondaryAttr = null;
+    toast(`トリガー効果を持つカードはデッキ全体で最大${TRIGGER_CAP}枚までです`);
     return;
   }
   state.deck.cards[c.id] = (state.deck.cards[c.id] || 0) + 1;
@@ -335,13 +351,14 @@ function renderDeckList() {
     rows.sort((a, b) => (a.c.cost ?? 0) - (b.c.cost ?? 0) || a.c.name.localeCompare(b.c.name, "ja"));
     const subtotal = rows.reduce((s, r) => s + r.count, 0);
     html += `<div class="deck-group-title">${type}（${subtotal}）</div>`;
+    const triggerOver = triggerCountInDeck() > TRIGGER_CAP;
     for (const { c, count } of rows) {
-      const overLimit = copiesInDeckForCardNo(c.cardNo) > c.maxCopies;
+      const overLimit = copiesInDeckForCardNo(c.cardNo) > c.maxCopies || (c.hasTrigger && triggerOver);
       html += `
         <div class="deck-row ${overLimit ? "over-limit" : ""}" data-id="${c.id}">
           <img src="${c.image}" alt="">
           <span class="drow-cost">${c.cost ?? "-"}</span>
-          <span class="drow-name">${escapeHtml(c.name)}</span>
+          <span class="drow-name">${escapeHtml(c.name)}${c.hasTrigger ? ` <span class="trigger-badge" title="トリガー効果">T</span>` : ""}</span>
           <span class="rarity-badge">${c.rarity}</span>
           <span class="stepper">
             <button class="drow-minus">−</button>
@@ -366,8 +383,10 @@ function renderDeckStats() {
   const el = document.getElementById("deckStats");
   const total = totalDeckCount();
   const leader = currentLeader();
+  const trig = triggerCountInDeck();
   el.innerHTML = `デッキ: <strong>${total + (leader ? 1 : 0)}</strong> / 41 枚　`
-    + `(リーダー${leader ? "1" : "0"} + その他<strong>${total}</strong>/${DECK_SIZE})`;
+    + `(リーダー${leader ? "1" : "0"} + その他<strong>${total}</strong>/${DECK_SIZE})　`
+    + `トリガー: <strong>${trig}</strong>/${TRIGGER_CAP}`;
 }
 
 function renderValidity() {
@@ -402,6 +421,9 @@ function renderValidity() {
   }
   if (overLimit.length) errors.push(`同一カードの上限を超えています: ${overLimit.join("、")}`);
 
+  const trigCount = triggerCountInDeck();
+  if (trigCount > TRIGGER_CAP) errors.push(`トリガー効果を持つカードがデッキ全体で${TRIGGER_CAP}枚を超えています（現在${trigCount}枚）。`);
+
   if (errors.length === 0) {
     el.className = "deck-validity ok";
     el.innerHTML = `<span class="ok-line">✓ このデッキは公式ルールに適合しています</span>`;
@@ -424,7 +446,7 @@ function openModal(c) {
     <div class="mc-body">
       <img class="mc-img" id="mcImg" src="${c.image}" alt="${escapeHtml(c.name)}">
       <div class="mc-info">
-        <h2>${escapeHtml(c.name)}</h2>
+        <h2>${escapeHtml(c.name)}${c.hasTrigger ? ` <span class="trigger-badge" title="トリガー効果を持つカード">T</span>` : ""}</h2>
         <div class="mc-sub">${c.cardNo} / ${c.cardType} / 属性: ${c.attribute}</div>
         <div class="mc-stats">
           <div><span>コスト: </span>${c.cost ?? "-"}</div>
