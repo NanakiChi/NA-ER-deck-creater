@@ -305,7 +305,7 @@ html, body {
   padding: 20px;
 }
 .modal-card .mc-body { display: flex; gap: 18px; }
-.modal-card img.mc-img { width: 220px; border-radius: 8px; flex-shrink: 0; }
+.modal-card img.mc-img { width: 220px; max-width: 100%; height: auto; border-radius: 8px; flex-shrink: 0; }
 .modal-card .mc-info { flex: 1; min-width: 0; }
 .modal-card h2 { margin: 0 0 4px; font-size: 20px; }
 .modal-card .mc-sub { color: var(--text-dim); font-size: 12px; margin-bottom: 10px; }
@@ -353,4 +353,12 @@ html, body {
 @media (max-width: 860px) {
   .app-main { grid-template-columns: 1fr; height: auto; }
   .browser-pane { border-right: none; border-bottom: 1px solid var(--border); }
+}
+
+@media (max-width: 640px) {
+  .modal-backdrop { padding: 10px; }
+  .modal-card { padding: 14px; }
+  .modal-card .mc-body { flex-direction: column; gap: 12px; }
+  .modal-card img.mc-img { width: 100%; max-width: 280px; margin: 0 auto; }
+  .modal-card .mc-stats { grid-template-columns: 1fr; }
 }
