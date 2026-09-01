@@ -67,12 +67,11 @@ function buildFilterChips() {
   const costRow = document.getElementById("filterCost");
   costRow.innerHTML = costs.map(c => chipHtml("cost", String(c), String(c))).join("");
 
+  const FILTER_SET_NAMES = { attr: "attrs", type: "types", rarity: "rarities", cost: "costs" };
   document.querySelectorAll(".chip").forEach(chip => {
     chip.addEventListener("click", () => {
       const group = chip.dataset.group;
-      const val = chip.dataset[group === "attr" ? "attr" : group];
-      const setName = group === "attr" ? "attrs" : group + "s";
-      const set = state.filters[setName];
+      const set = state.filters[FILTER_SET_NAMES[group]];
       if (set.has(chip.dataset.value)) set.delete(chip.dataset.value); else set.add(chip.dataset.value);
       chip.classList.toggle("active");
       renderGrid();
