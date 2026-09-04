@@ -111,7 +111,7 @@ html, body {
   align-items: center;
   gap: 6px 10px;
 }
-.filter-toggle, .sort-control {
+.sort-control {
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -120,7 +120,6 @@ html, body {
   cursor: pointer;
   user-select: none;
 }
-.filter-toggle input { accent-color: var(--accent); margin: 0; cursor: pointer; }
 .sort-select {
   background: var(--bg-panel-2);
   color: var(--text);
@@ -141,7 +140,10 @@ html, body {
   color: var(--text-dim);
   padding: 4px 10px;
   border-radius: 14px;
+  /* font/line-height are spelled out so a <button> chip matches the <span> ones. */
+  font-family: inherit;
   font-size: 12px;
+  line-height: 1.5;
   cursor: pointer;
   user-select: none;
 }

@@ -100,8 +100,9 @@ function buildFilterChips() {
     attr: "attrs", type: "types", rarity: "rarities", cost: "costs",
     keyword: "keywords", affiliation: "affiliations",
   };
-  // Scoped to #filters: the leader slot's secondary-attribute chips are handled separately.
-  document.querySelectorAll("#filters .chip").forEach(chip => {
+  // Only chips carrying a data-group drive a filter set: the leader slot's
+  // secondary-attribute chips and the 使用可能のみ表示 chip are handled separately.
+  document.querySelectorAll("#filters .chip[data-group]").forEach(chip => {
     chip.addEventListener("click", () => {
       const group = chip.dataset.group;
       const set = state.filters[FILTER_SET_NAMES[group]];
@@ -120,8 +121,11 @@ function buildFilterChips() {
     btnAdvanced.textContent = open ? "詳細フィルター ▴" : "詳細フィルター ▾";
   });
 
-  document.getElementById("toggleUsableOnly").addEventListener("change", (e) => {
-    state.filters.usableOnly = e.target.checked;
+  const usableChip = document.getElementById("toggleUsableOnly");
+  usableChip.addEventListener("click", () => {
+    state.filters.usableOnly = !state.filters.usableOnly;
+    usableChip.classList.toggle("active", state.filters.usableOnly);
+    usableChip.setAttribute("aria-pressed", String(state.filters.usableOnly));
     renderGrid();
   });
   document.getElementById("sortSelect").addEventListener("change", (e) => {
@@ -136,7 +140,7 @@ function buildFilterChips() {
       state.filters[key].clear();
     }
     state.filters.usableOnly = false;
-    document.getElementById("toggleUsableOnly").checked = false;
+    document.getElementById("toggleUsableOnly").setAttribute("aria-pressed", "false");
     document.querySelectorAll("#filters .chip.active").forEach(c => c.classList.remove("active"));
     renderGrid();
   });
