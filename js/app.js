@@ -30,10 +30,10 @@ function cardKeywords(c) {
 function cardAffiliations(c) {
   return (c.affiliation || "").split("/").map(s => s.trim()).filter(s => s && s !== "-" && s !== "エフェクト");
 }
-// Cards the current leader's attributes don't allow. Leaders themselves are never off-color.
+// Cards the current leader's attributes don't allow.
 function isOffColor(c) {
   const leader = currentLeader();
-  return !!leader && c.cardType !== "リーダー"
+  return !!leader
     && c.attribute !== leader.attribute
     && c.attribute !== state.deck.secondaryAttr;
 }
