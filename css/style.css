@@ -105,6 +105,36 @@ html, body {
   font-size: 13px;
 }
 .filter-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+}
+.filter-toggle, .sort-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: var(--text-dim);
+  cursor: pointer;
+  user-select: none;
+}
+.filter-toggle input { accent-color: var(--accent); margin: 0; cursor: pointer; }
+.sort-select {
+  background: var(--bg-panel-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 3px 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.result-count { font-size: 12px; color: var(--text-dim); margin-left: auto; }
+.advanced-filters { display: flex; flex-direction: column; gap: 6px; }
+/* The class rule above would otherwise beat the UA stylesheet's [hidden] rule. */
+.advanced-filters[hidden] { display: none; }
+.filter-group-label { font-size: 11px; color: var(--text-dim); letter-spacing: .05em; }
 .chip {
   border: 1px solid var(--border);
   background: var(--bg-panel-2);
@@ -249,6 +279,50 @@ html, body {
 .deck-validity ul { margin: 4px 0 0; padding-left: 18px; color: var(--danger); }
 .deck-validity .ok-line { color: var(--ok); }
 
+.deck-stats-panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 10px 6px;
+  margin-bottom: 10px;
+}
+.dsp-empty { font-size: 12px; color: var(--text-dim); }
+.dsp-title {
+  font-size: 11px;
+  color: var(--text-dim);
+  letter-spacing: .05em;
+  margin-bottom: 6px;
+}
+.cost-curve {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 2px;
+}
+.cc-col { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.cc-count { font-size: 10px; color: var(--text-dim); line-height: 1; height: 11px; }
+.cc-track { width: 100%; height: 56px; display: flex; align-items: flex-end; }
+.cc-bar {
+  width: 100%;
+  background: var(--accent);
+  border-radius: 3px 3px 0 0;
+  min-height: 0;
+}
+.cc-bar.is-empty { background: var(--border); height: 2px !important; border-radius: 2px; }
+.cc-x { font-size: 10px; color: var(--text-dim); line-height: 1.4; }
+.stat-tiles { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 8px; }
+.stat-tile { font-size: 11px; color: var(--text-dim); }
+.stat-tile strong { color: var(--text); font-size: 13px; margin-left: 3px; }
+.attr-breakdown { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: 6px; }
+.attr-row { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; color: var(--text-dim); }
+.attr-swatch { width: 9px; height: 9px; border-radius: 2px; flex-shrink: 0; }
+.attr-row strong { color: var(--text); }
+
+.deck-pane-header { display: none; }
+.deck-pane-actions { display: flex; gap: 6px; margin-top: 10px; }
+.deck-pane-actions .btn { flex: 1; }
+
 .deck-list {
   overflow-y: auto;
   flex: 1;
@@ -332,6 +406,56 @@ html, body {
 .import-help { font-size: 12px; color: var(--text-dim); }
 .modal-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 10px; }
 
+.hand-modal-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.hand-modal-head h3 { margin: 0; font-size: 16px; flex: 1; }
+.hand-size-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+.hand-help { font-size: 12px; color: var(--text-dim); margin: 8px 0; }
+.hand-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 8px;
+}
+.hand-card { cursor: pointer; }
+.hand-card img { display: block; width: 100%; aspect-ratio: 225 / 315; border-radius: 6px; background: #000; }
+.hand-card .hc-name {
+  font-size: 10px;
+  line-height: 1.3;
+  margin-top: 3px;
+  color: var(--text-dim);
+}
+.hand-card .hc-cost { color: var(--accent); font-weight: 700; }
+
+.deck-fab {
+  display: none;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 40;
+  border: none;
+  border-radius: 22px;
+  padding: 11px 18px;
+  background: var(--accent);
+  color: #10131a;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0,0,0,.45);
+}
+.drawer-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 41;
+}
+.drawer-backdrop.open { display: block; }
+
 .toast {
   position: fixed;
   bottom: 20px;
@@ -353,6 +477,40 @@ html, body {
 @media (max-width: 860px) {
   .app-main { grid-template-columns: 1fr; height: auto; }
   .browser-pane { border-right: none; border-bottom: 1px solid var(--border); }
+
+  /* The deck pane becomes a bottom drawer so it stays reachable while browsing. */
+  .deck-fab { display: block; }
+  body.drawer-open .deck-fab { display: none; }
+  .deck-pane {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 42;
+    max-height: 85vh;
+    background: var(--bg);
+    border-top: 1px solid var(--border);
+    border-radius: 12px 12px 0 0;
+    transform: translateY(101%);
+    transition: transform .22s ease;
+    overflow-y: auto;
+  }
+  .deck-pane.open { transform: none; }
+  .deck-pane-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    padding-bottom: 8px;
+    z-index: 1;
+  }
+  .deck-pane-title { font-size: 14px; font-weight: 600; }
+  /* The drawer itself scrolls, so the list must not be a second scroll area,
+     and no block may be squeezed below its content height. */
+  .deck-list { overflow: visible; flex: none; }
+  .deck-pane > * { flex-shrink: 0; }
 }
 
 @media (max-width: 640px) {

@@ -35,19 +35,54 @@
       <div class="filter-row" id="filterType"></div>
       <div class="filter-row" id="filterRarity"></div>
       <div class="filter-row" id="filterCost"></div>
-      <button id="btnResetFilters" class="btn btn-small btn-ghost">フィルターをリセット</button>
+      <div class="filter-controls">
+        <button id="btnToggleAdvanced" class="btn btn-small btn-ghost" aria-expanded="false" aria-controls="advancedFilters">詳細フィルター ▾</button>
+        <label class="filter-toggle"><input type="checkbox" id="toggleTriggerOnly">トリガーのみ</label>
+        <label class="filter-toggle"><input type="checkbox" id="toggleUsableOnly">使用可能のみ</label>
+        <label class="sort-control">並び替え
+          <select id="sortSelect" class="sort-select">
+            <option value="cardNo">カード番号順</option>
+            <option value="costAsc">コストが低い順</option>
+            <option value="costDesc">コストが高い順</option>
+            <option value="powerDesc">パワーが高い順</option>
+            <option value="powerAsc">パワーが低い順</option>
+            <option value="name">名前順</option>
+            <option value="rarity">レアリティ順</option>
+          </select>
+        </label>
+        <button id="btnResetFilters" class="btn btn-small btn-ghost">リセット</button>
+        <span class="result-count" id="resultCount"></span>
+      </div>
+      <div class="advanced-filters" id="advancedFilters" hidden>
+        <div class="filter-group-label">キーワード</div>
+        <div class="filter-row" id="filterKeyword"></div>
+        <div class="filter-group-label">所属</div>
+        <div class="filter-row" id="filterAffiliation"></div>
+      </div>
     </div>
     <div class="card-grid" id="cardGrid"></div>
   </section>
 
-  <aside class="deck-pane">
+  <aside class="deck-pane" id="deckPane">
+    <div class="deck-pane-header">
+      <span class="deck-pane-title">デッキ</span>
+      <button id="btnDeckClose" class="btn btn-small btn-ghost">閉じる</button>
+    </div>
     <div class="leader-slot" id="leaderSlot">
       <div class="leader-slot-placeholder">リーダー未選択<br><span>カード一覧のリーダーをクリックして選択</span></div>
     </div>
     <div class="deck-validity" id="deckValidity"></div>
+    <div class="deck-stats-panel" id="deckStatsPanel"></div>
     <div class="deck-list" id="deckList"></div>
+    <div class="deck-pane-actions">
+      <button id="btnHandSim" class="btn btn-small">初手を引く</button>
+      <button id="btnDeckImage" class="btn btn-small">画像で保存</button>
+    </div>
   </aside>
 </main>
+
+<button class="deck-fab" id="btnDeckFab" aria-label="デッキを開く"></button>
+<div class="drawer-backdrop" id="drawerBackdrop"></div>
 
 <div class="modal-backdrop" id="cardModalBackdrop">
   <div class="modal-card" id="cardModal"></div>
@@ -61,6 +96,29 @@
     <div class="modal-actions">
       <button id="btnImportCancel" class="btn btn-ghost">キャンセル</button>
       <button id="btnImportConfirm" class="btn btn-primary">読み込む</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="handModalBackdrop">
+  <div class="modal-card hand-modal">
+    <div class="hand-modal-head">
+      <h3>初手シミュレーター</h3>
+      <label class="hand-size-control">初手枚数
+        <select id="handSize" class="sort-select">
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5" selected>5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+        </select>
+      </label>
+    </div>
+    <p class="hand-help" id="handHelp"></p>
+    <div class="hand-cards" id="handCards"></div>
+    <div class="modal-actions">
+      <button id="btnHandClose" class="btn btn-ghost">閉じる</button>
+      <button id="btnHandRedraw" class="btn btn-primary">引き直す</button>
     </div>
   </div>
 </div>
