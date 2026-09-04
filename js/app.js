@@ -16,7 +16,7 @@ const state = {
     search: "",
     attrs: new Set(), types: new Set(), rarities: new Set(), costs: new Set(),
     keywords: new Set(), affiliations: new Set(),
-    triggerOnly: false, usableOnly: false,
+    usableOnly: false,
   },
   sort: "cardNo",
   deck: { leaderId: null, secondaryAttr: null, cards: {} }, // cards: { id: count }
@@ -120,10 +120,6 @@ function buildFilterChips() {
     btnAdvanced.textContent = open ? "詳細フィルター ▴" : "詳細フィルター ▾";
   });
 
-  document.getElementById("toggleTriggerOnly").addEventListener("change", (e) => {
-    state.filters.triggerOnly = e.target.checked;
-    renderGrid();
-  });
   document.getElementById("toggleUsableOnly").addEventListener("change", (e) => {
     state.filters.usableOnly = e.target.checked;
     renderGrid();
@@ -139,9 +135,7 @@ function buildFilterChips() {
     for (const key of ["attrs", "types", "rarities", "costs", "keywords", "affiliations"]) {
       state.filters[key].clear();
     }
-    state.filters.triggerOnly = false;
     state.filters.usableOnly = false;
-    document.getElementById("toggleTriggerOnly").checked = false;
     document.getElementById("toggleUsableOnly").checked = false;
     document.querySelectorAll("#filters .chip.active").forEach(c => c.classList.remove("active"));
     renderGrid();
@@ -363,7 +357,6 @@ function passesFilter(c) {
   if (f.costs.size && !(c.cost !== null && f.costs.has(String(c.cost)))) return false;
   if (f.keywords.size && !cardKeywords(c).some(k => f.keywords.has(k))) return false;
   if (f.affiliations.size && !cardAffiliations(c).some(a => f.affiliations.has(a))) return false;
-  if (f.triggerOnly && !c.hasTrigger) return false;
   if (f.usableOnly && isOffColor(c)) return false;
   if (f.search) {
     const q = f.search.toLowerCase();
